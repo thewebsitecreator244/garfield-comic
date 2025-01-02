@@ -1,0 +1,61 @@
+body{
+    background-image: url(./back.png);
+    font-family: "StratosSkyeng", sans-serif;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.header{
+    background-image: url(./bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.content{
+    padding-top: 75px;
+    border-top: 25px solid brown;
+    position: relative;
+}
+#table{
+    width: 1200px;
+    height: 100vh;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+tr,td{
+    border: 25px solid snow;
+    text-align: center;
+    vertical-align: bottom;
+}
+img{
+    width: 560px;
+}
+p{
+    background-color: white;
+    width: max-content;
+    font-size: 30px ;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin: 23px auto;
+}
+a{
+    display: block;
+    background-color: #894AFF;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 75px;
+    right: 80px;
+}
+.jon{
+    height: 500px;
+    margin-bottom: 40px;
+}
+.ate{
+    margin-bottom: 100px;
+}
